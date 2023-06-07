@@ -1,0 +1,8 @@
+{% extends "../templates/base.nunj" %}
+{% from "../components/icon/icon.nunj" import icon %}
+{% block content %}
+
+	{% include '../includes/header/header.nunj' %}
+	{% include '../includes/sections-wrapper/sections-wrapper.nunj' %}
+
+{% endblock %}

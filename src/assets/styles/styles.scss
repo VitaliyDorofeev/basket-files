@@ -1,0 +1,27 @@
+// ======= GLOBAL =======
+@import 'constants';
+@import 'lib/base';
+@import 'fonts';
+@import 'reset';
+@import 'global';
+@import 'layout';
+// @import 'controls';
+
+// ======= COMPONENTS =======
+@import '../../components/button/button';
+@import '../../components/title/title.scss';
+@import '../../components/card/card.scss';
+@import '../../components/card-input/card-input.scss';
+
+// ======= INCLUDES =======
+@import '../../includes/header/header';
+@import '../../includes/nav/nav.scss';
+
+// ======= SECTIONS =======
+@import '../../includes/sections-wrapper/sections-wrapper.scss';
+@import '../../includes/sections/section-progress.scss';
+@import '../../includes//sections/section-billing.scss';
+@import '../../includes/sections/section-basket.scss';
+
+// ======= PAGES =======
+@import 'pages/main';

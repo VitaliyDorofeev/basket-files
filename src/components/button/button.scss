@@ -1,0 +1,27 @@
+.button {
+	@extend .transition-active;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #3366FF;
+	border-radius: 3px;
+	border-style: none;
+	width: 125px;
+	height: 40px;
+	font-weight: 400;
+
+	color: #FFFFFF;
+
+	cursor: pointer;
+	font-size: 14px;
+	line-height: 1.7;
+
+	&--back {
+		width: 91px;
+		background: #FFFFFF;
+		border: 1px solid #CFCFCF;
+		border-radius: 3px;
+		color: #000000;
+	}
+
+}

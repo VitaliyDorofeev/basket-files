@@ -1,0 +1,29 @@
+.card-input-wrapper {
+	display: flex;
+	column-gap: 30px;
+
+	/* Mobile XS */
+	@media (max-width:768px) {
+		column-gap: 5px;
+	}
+}
+
+.card-input {
+	width: 100px;
+	height: 40px;
+
+	border-style: none;
+	background: #EDEDF1;
+	border-radius: 3px;
+
+	&:focus {
+		outline: none !important;
+		border: 3px solid #fff;
+		box-shadow: 0 0 10px #EDEDF1;
+	}
+
+	/* Mobile XS */
+	@media (max-width:768px) {
+		width: 71px;
+	}
+}

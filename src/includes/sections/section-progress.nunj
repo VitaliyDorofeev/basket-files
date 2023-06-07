@@ -1,0 +1,24 @@
+<section class="section-progress">
+	<div class="container section-progress__wrapper">
+		<div class="row">
+			<ul class="progress-list">
+				<li class="progress-list__item">
+					<span class="progress-list__circle active">1</span>
+					<span class="progress-list__title">Account</span>
+				</li>
+				<li class="progress-list__item">
+					<span class="progress-list__circle active">2</span>
+					<span class="progress-list__title">Shipping</span>
+				</li>
+				<li class="progress-list__item">
+					<span class="progress-list__circle">3</span>
+					<span class="progress-list__title">Billing</span>
+				</li>
+				<li class="progress-list__item">
+					<span class="progress-list__circle progress-list__circle--end">4</span>
+					<span class="progress-list__title">Review</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>

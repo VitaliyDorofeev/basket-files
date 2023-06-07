@@ -1,0 +1,114 @@
+<section class="section-basket">
+	<div class="container section-basket-container">
+		<div class="section-basket__title">
+			<h2 class="title">My basket</h2>
+		</div>
+		<div class="section-basket__list">
+			<div class="section-basket__item-wrapper">
+				<div class="section-basket__item">
+					<div class="section-basket__image">
+						<img src="../../assets/images/basket/basket-img.jpg" alt="Картинка товара">
+					</div>
+					<div class="section-basket__desc">
+						<div class="section-basket__desc-title">
+							<p>Amet minim mollit non
+								deserunt ullamco est sit</p>
+						</div>
+						<div class="section-basket__desc-counter">
+							<a class="section-basket__quantity-minus" href="#!">
+								{{ icon({
+									iconName: 'minus-counter',
+									className: 'icon',
+									attributes: 'viewBox="0 0 20 20" style="width: 24px; height: 24px; fill: #212121;"'
+								}) }}
+							</a>
+							<span class="section-basket__counter">1</span>
+							<a class="section-basket__quantity-plus" href="#!">
+								{{ icon({
+									iconName: 'plus-counter',
+									className: 'icon',
+									attributes: 'viewBox="0 0 20 20" style="width: 24px; height: 24px; fill: #212121;"'
+								}) }}
+							</a>&dollar;
+							<span class="section-basket__price">525</span>
+						</div>
+					</div>
+				</div>
+				<a href="#!" class="section-basket__close">
+					{{ icon({
+						iconName: 'close',
+						className: 'icon',
+						attributes: 'viewBox="0 0 20 20" style="width: 24px; height: 24px; fill: #212121;"'
+					}) }}
+				</a>
+			</div>
+
+			<div class="section-basket__item-wrapper">
+				<div class="section-basket__item">
+					<div class="section-basket__image">
+						<img src="../../assets/images/basket/basket-img-2.jpg" alt="Картинка товара">
+					</div>
+					<div class="section-basket__desc">
+						<div class="section-basket__desc-title">
+							<p>Amet minim mollit non</p>
+						</div>
+						<div class="section-basket__desc-counter">
+							<a class="section-basket__quantity-minus" href="#!">
+								{{ icon({
+									iconName: 'minus-counter',
+									className: 'icon',
+									attributes: 'viewBox="0 0 20 20" style="width: 24px; height: 24px; fill: #212121;"'
+								}) }}
+							</a>
+							<span class="section-basket__counter">1</span>
+							<a class="section-basket__quantity-plus" href="#!">
+								{{ icon({
+									iconName: 'plus-counter',
+									className: 'icon',
+									attributes: 'viewBox="0 0 20 20" style="width: 24px; height: 24px; fill: #212121;"'
+								}) }}
+							</a>&dollar;
+							<span class="section-basket__price">525</span>
+						</div>
+					</div>
+				</div>
+				<a href="#!" class="section-basket__close">
+					{{ icon({
+						iconName: 'close',
+						className: 'icon',
+						attributes: 'viewBox="0 0 20 20" style="width: 24px; height: 24px; fill: #212121;"'
+					}) }}
+				</a>
+			</div>
+		</div>
+		<span class="under-line"></span>
+		<div class="section-basket__promo">
+			<div class="section-basket__promo-title">
+				<h2 class="title">Promo code</h2>
+			</div>
+			<div class="section-basket__promo-code">
+				<input class="section-basket__promo-input card-input" type="text" placeholder="Placeholder Text">
+				<button class="section-basket__promo-button button">Apply</button>
+			</div>
+		</div>
+		<span class="under-line"></span>
+		<div class="section-basket__total-list">
+			<div class="section-basket__total-item">
+				<span class="section-basket__total-name">Subtotal</span>
+				<span class="section-basket__total-price-subtotal">$1 050</span>
+			</div>
+			<div class="section-basket__total-item">
+				<span class="section-basket__total-name">Tax</span>
+				<span class="section-basket__total-price">$100</span>
+			</div>
+			<div class="section-basket__total-item">
+				<span class="section-basket__total-name">Shipping</span>
+				<span class="section-basket__total-price">$150</span>
+			</div>
+			<div class="section-basket__total-item total">
+				<span class="section-basket__total-name">Total</span>
+				<span class="section-basket__total-price-total">$1 300</span>
+			</div>
+		</div>
+	</div>
+</section>

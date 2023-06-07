@@ -1,0 +1,4 @@
+<div class="sections-wrapper">
+	{% include '../../includes/sections-progress-billing-wrapper/sections-progress-billing-wrapper.nunj' %}
+	{% include '../../includes/sections/section-basket.nunj' %}
+</div>

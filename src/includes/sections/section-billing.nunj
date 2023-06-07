@@ -1,0 +1,73 @@
+<section class="section-billing">
+	<div class="container section-billing__container">
+		<div class="row section-billing__row">
+			<div class="section-billing__title">
+					<h1 class="title">Billing Information</h1>
+			</div>
+			<div class="section-billing__method">
+				<label class="section-billing__radio">
+					<input class="real-radio" type="radio" name="method-pay">
+					<span class="custom-radio"></span>
+					Pay with Credit Card
+				</label>
+				<label class="section-billing__radio">
+					<input class="real-radio" type="radio" name="method-pay">
+					<span class="custom-radio"></span>
+						{{ icon({
+							iconName: 'paypal',
+							className: 'icon',
+							attributes: 'viewBox="0 0 20 20" style="width: 85px; height: 23px; fill: #212121;"'
+						}) }}
+				</label>
+			</div>
+			<form class="form">
+				<label class="form__name-card card">
+					<div class="form__card-title">
+						<span>Name on card</span>
+					</div>
+					<input class="form__name-card-input card-input" type="text" placeholder="Placeholder Text">
+				</label>
+				<label class="form__number-card card">
+					<div class="form__card-title">
+						<span class="form__card-title">Card number</span>
+					</div>
+					<div class="card-input-wrapper">
+						<input class="card-input" type="number">
+						<input class="card-input" type="number">
+						<input class="card-input" type="number">
+						<input class="card-input" type="number">
+					</div>
+				</label>
+				<label class="form__date-cvv-card card">
+					<div class="form__date-cvv">
+						<span class="form__card-title">Expire date</span>
+						<input class="card-input" type="text">
+					</div>
+					<div class="form__date-card">
+						<span class="form__card-title">CVV code</span>
+						<input class="card-input" type="text">
+					</div>
+				</label>
+
+			</form>
+			<div class="form-privacy-wrapper">
+				<div class="form-privacy">
+					<label class="form-privacy__item-1">
+						<input class="real-checkbox" type="checkbox" name="privacy">
+						<span  class="custom-checkbox"></span>
+						Save information of this credit card
+					</label>
+					<label class="form-privacy__item-2">
+						<input class="real-checkbox" type="checkbox" name="privacy">
+						<span  class="custom-checkbox"></span>
+						<span>I accept the <span class="form-privacy__item-2--bold">terms and comditions</span> and the <span class="form-privacy__item-2--bold">Privacy Policies</span></span>
+					</label>
+				</div>
+				<div class="form-privacy__buttons">
+					<button class="button button--back">Back</button>
+					<button type="submit" class="button">Check Out</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

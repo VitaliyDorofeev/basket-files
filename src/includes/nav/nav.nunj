@@ -1,0 +1,27 @@
+<nav class="navigation">
+	<div class="navigation__logo">
+		<a href="#!">
+			<img src="../../assets/images/logo/Logo.jpg" alt="Логотип">
+		</a>
+	</div>
+	<div class="navigation__basket">
+		<a class="navigation__basket-link" href="#!">
+			{{ icon({
+				iconName: 'zoom',
+				className: 'icon',
+				attributes: 'viewBox="0 0 20 20" style="width: 24px; height: 24px; fill: #212121;"'
+			}) }}
+		</a>
+		<a class="navigation__basket-link navigation__basket-link--circle" href="#!">
+			{{ icon({
+				iconName: 'basket',
+				className: 'icon',
+				attributes: 'viewBox="0 0 20 20" style="width: 24px; height: 24px; fill: #212121;"'
+			}) }}
+			<span class="navigation__basket-link--circle-number">2</span>
+		</a>
+	</div>
+	<div class="navigation__burger">
+		<span class="navigation__item"></span>
+	</div>
+</nav>

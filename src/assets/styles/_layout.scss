@@ -1,0 +1,22 @@
+.wrapper {
+	position: relative;
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+.container--hd {
+	max-width: 1540px;
+
+	/* Tablet */
+	@media (max-width:1450px) {
+		max-width: 1140px;
+	}
+}
+
+.row {
+	display: flex;
+}

@@ -1,0 +1,4 @@
+<section class="sections-progress-billing-wrapper">
+	{% include '../../includes/sections/section-progress.nunj' %}
+	{% include '../../includes/sections/section-billing.nunj' %}
+</section>
